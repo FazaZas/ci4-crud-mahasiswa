@@ -7,9 +7,8 @@
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="/">Home</a>
-                    <a class="nav-link" href="#">Mahasiswa</a>
+                    <a class="nav-link" href="/Mahasiswa">Mahasiswa</a>
                     <a class="nav-link" href="/Pages/about">About</a>
-                    <a class="nav-link disabled">Contact< /a>
                </div>
           </div>
      </div>
