@@ -5,6 +5,7 @@
      <div class="row">
           <div class="col">
                <h1 class="mt-2">Daftar Mahasiswa</h1>
+               <a href="/Mahasiswa/create" class="btn btn-primary mb-3">Tambah Data Mahasiswa</a>
                <table class="table">
                     <thead>
                          <tr>
@@ -23,7 +24,7 @@
                                    <td><img src="/img/<?= $m['foto']; ?>" alt="" class="sampul"></td>
                                    <td><?= $m['nrp']; ?></td>
                                    <td><?= $m['nama']; ?></td>
-                                   <td><a href="" class="btn btn-success">Detail</a></td>
+                                   <td><a href="/Mahasiswa/<?= $m['slug']; ?>" class="btn btn-success">Detail</a></td>
                               </tr>
                          <?php endforeach; ?>
                     </tbody>

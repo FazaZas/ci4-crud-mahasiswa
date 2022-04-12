@@ -14,4 +14,12 @@ class MahasiswaModel extends Model
      protected $useTimestamps = true;
      protected $createdField  = 'created_at';
      protected $updatedField  = 'updated_at';
+
+     public function getMahasiswa($slug = false)
+     {
+          if ($slug == false) {
+               return $this->findAll();
+          }
+          return $this->where(['slug' => $slug])->first();
+     }
 }
